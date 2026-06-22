@@ -1,8 +1,9 @@
 #!/bin/bash
 
 DST_DIR="$ZYNTHIAN_DATA_DIR/soundfonts/sfz/Pianos/Zynthian Salamander Grand"
-DST_DIR="/tmp/j2/Zynthian Salamander Grand"
+# DST_DIR="/tmp/j2/Zynthian Salamander Grand" #### TESTING ONLY
 DOWNLOAD_URL="https://github.com/jlearman/zynthian-salamander-grand/archive/refs/heads/main.zip"
+PKG_NAME="zynthian-salamander-grand"
 TMP_DIR=$(mktemp -d)
 
 trap 'rm -rf "$TMP_DIR"' EXIT
@@ -15,7 +16,7 @@ do_install() {
     rm -rf "$DST_DIR"
     mkdir -p "$DST_DIR"
     rm -f "$TMP_DIR/package"
-    mv "$TMP_DIR"/zynthian-salamander-grand-main/* "$DST_DIR"
+    mv "$TMP_DIR"/$PKG_NAME/* "$DST_DIR"
     set +x
     echo "installed"
 }
