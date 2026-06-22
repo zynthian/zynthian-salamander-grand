@@ -60,7 +60,7 @@ v064=1
 v127=1
 
 
-<master> release=1.2 // A0
+<master> ampeg_release=1.2 // A0
 
 <group> tune=0 // key_group=21 [A0]
 <region> sample=flac/021_A0v01.flac volume=+5.90 lokey=21 hikey=21 lovel=1 hivel=26 pitch_keycenter=21
@@ -188,7 +188,7 @@ v127=1
 <region> sample=flac/027_D#1v15.flac volume=+0.40 lokey=27 hikey=27 lovel=112 hivel=119 pitch_keycenter=27
 <region> sample=flac/027_D#1v16.flac lokey=27 hikey=27 lovel=120 pitch_keycenter=27
 
-<master> release=1.1 // E1
+<master> ampeg_release=1.1 // E1
 
 <group> tune=-2 // key_group=28 [E1]
 <region> sample=flac/027_D#1v01.flac volume=+5.90 lokey=28 hikey=28 lovel=1 hivel=26 pitch_keycenter=27
@@ -406,7 +406,7 @@ v127=1
 <region> sample=flac/039_D#2v15.flac volume=+0.40 lokey=39 hikey=39 lovel=112 hivel=119 pitch_keycenter=39
 <region> sample=flac/039_D#2v16.flac lokey=39 hikey=39 lovel=120 pitch_keycenter=39
 
-<master> release=.85 // E2
+<master> ampeg_release=.85 // E2
 
 <group> tune=+1 // key_group=40 [E2]
 <region> sample=flac/039_D#2v01.flac volume=+6.10 lokey=40 hikey=40 lovel=1 hivel=26 pitch_keycenter=39
@@ -498,7 +498,7 @@ v127=1
 <region> sample=flac/045_A2v15.flac volume=+0.30 lokey=44 hikey=44 lovel=112 hivel=119 pitch_keycenter=45
 <region> sample=flac/045_A2v16.flac volume=-0.10 lokey=44 hikey=44 lovel=120 pitch_keycenter=45
 
-<master> release=.70 // A2
+<master> ampeg_release=.70 // A2
 
 <group> tune=0 // key_group=45 [A2]
 <region> sample=flac/045_A2v01.flac volume=+5.90 lokey=45 hikey=45 lovel=1 hivel=26 pitch_keycenter=45
@@ -626,7 +626,7 @@ v127=1
 <region> sample=flac/051_D#3v15.flac volume=+0.40 lokey=51 hikey=51 lovel=112 hivel=119 pitch_keycenter=51
 <region> sample=flac/051_D#3v16.flac lokey=51 hikey=51 lovel=120 pitch_keycenter=51
 
-<master> release=.60 // E3
+<master> ampeg_release=.60 // E3
 
 <group> tune=+1 // key_group=52 [E3]
 <region> sample=flac/051_D#3v01.flac volume=+6.10 lokey=52 hikey=52 lovel=1 hivel=26 pitch_keycenter=51
@@ -718,7 +718,7 @@ v127=1
 <region> sample=flac/057_A3v15.flac volume=+0.30 lokey=56 hikey=56 lovel=112 hivel=119 pitch_keycenter=57
 <region> sample=flac/057_A3v16.flac volume=-0.10 lokey=56 hikey=56 lovel=120 pitch_keycenter=57
 
-<master> release=.57 // A3
+<master> ampeg_release=.57 // A3
 
 <group> tune=0 // key_group=57 [A3]
 <region> sample=flac/057_A3v01.flac volume=+5.90 lokey=57 hikey=57 lovel=1 hivel=26 pitch_keycenter=57
@@ -846,7 +846,7 @@ v127=1
 <region> sample=flac/063_D#4v15.flac volume=+0.40 lokey=63 hikey=63 lovel=112 hivel=119 pitch_keycenter=63
 <region> sample=flac/063_D#4v16.flac lokey=63 hikey=63 lovel=120 pitch_keycenter=63
 
-<master> release=.53 // E4
+<master> ampeg_release=.53 // E4
 
 <group> tune=0 // key_group=64 [E4]
 <region> sample=flac/063_D#4v01.flac volume=+6.10 lokey=64 hikey=64 lovel=1 hivel=26 pitch_keycenter=63
@@ -938,7 +938,7 @@ v127=1
 <region> sample=flac/069_A4v15.flac volume=+0.10 lokey=68 hikey=68 lovel=112 hivel=119 pitch_keycenter=69
 <region> sample=flac/069_A4v16.flac volume=-0.20 lokey=68 hikey=68 lovel=120 pitch_keycenter=69
 
-<master> release=.45 // A4
+<master> ampeg_release=.45 // A4
 
 <group> tune=0 // key_group=69 [A4]
 <region> sample=flac/069_A4v01.flac volume=+5.90 lokey=69 hikey=69 lovel=1 hivel=26 pitch_keycenter=69
@@ -1066,7 +1066,7 @@ v127=1
 <region> sample=flac/075_D#5v15.flac volume=+0.40 lokey=75 hikey=75 lovel=112 hivel=119 pitch_keycenter=75
 <region> sample=flac/075_D#5v16.flac lokey=75 hikey=75 lovel=120 pitch_keycenter=75
 
-<master> release=.42 // E5
+<master> ampeg_release=.42 // E5
 
 <group> tune=0 // key_group=76 [E5]
 <region> sample=flac/075_D#5v01.flac volume=+5.97 lokey=76 hikey=76 lovel=1 hivel=26 pitch_keycenter=75
@@ -1158,7 +1158,7 @@ v127=1
 <region> sample=flac/081_A5v15.flac volume=+0.40 lokey=80 hikey=80 lovel=112 hivel=119 pitch_keycenter=81
 <region> sample=flac/081_A5v16.flac lokey=80 hikey=80 lovel=120 pitch_keycenter=81
 
-<master> release=.40 // A5
+<master> ampeg_release=.40 // A5
 
 <group> tune=0 // key_group=81 [A5]
 <region> sample=flac/081_A5v01.flac volume=+5.90 lokey=81 hikey=81 lovel=1 hivel=26 pitch_keycenter=81
@@ -1322,7 +1322,7 @@ v127=1
 <region> sample=flac/090_F#6v15.flac volume=+0.67 lokey=89 hikey=89 lovel=112 hivel=119 pitch_keycenter=90
 <region> sample=flac/090_F#6v16.flac volume=+0.37 lokey=89 hikey=89 lovel=120 pitch_keycenter=90
 
-<master> release=7 // Notes above F6 are undamped, but ring too long in this sampleset
+<master> ampeg_release=7 // Notes above F6 are undamped, but ring too long in this sampleset
 
 <group> tune=0 // key_group=90 [F#6]
 <region> sample=flac/090_F#6v01.flac volume=+5.90 lokey=90 hikey=90 lovel=1 hivel=26 pitch_keycenter=90
